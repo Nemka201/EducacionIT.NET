@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=VT323&family=Ysabeau+SC:wght@300&display=swap');
+:root {
+    --color-azul-marino: #13293D;
+    --color-crema-calido: #F8EDEB;
+    --color-verde-salvia: #9BBE9D;
+    --color-beige-claro: #F4F1E9;
+    --color-marron-claro: #A1887F;
+    --color-gris-claro: #D3D3D3;
+  }
+footer{
+    position: sticky;
+    border-top: 1px solid var(--color-beige-claro);
+    background-color: var(--color-azul-marino);
+    color: var(--color-beige-claro);
+
+}
+#navbar{
+    font-family: 'VT323', monospace;
+    background-color: var(--color-azul-marino);
+    border-bottom: 1px solid var(--color-beige-claro);
+
+}
+#navbar a{
+    color: var(--color-beige-claro);
+
+}
+.body{
+    background-color: var(--color-marron-claro);
+    color: var(--color-beige-claro);
+    font-family: 'VT323', monospace;
+}
+.body h3{
+    font-size: 2.5em;
+}
+.portada{
+    border-left: 1px solid var(--color-crema-calido);
+}
+footer h4{
+    font-size: 0.8rem;
+}
+footer h3{
+ font-size: 1.2rem;
+}
+.hotel-intro{
+    margin-top: 5rem;
+    padding-left: 1rem;
+    border: 1px solid var(--color-beige-claro);
+
+}
+.hotel-container{
+    border-left: 1px solid var(--color-beige-claro);
+}
+.habitaciones{
+    padding-bottom: 2em;
+}
+.imagen-hotel{
+    width: 100%; /* Ajusta el ancho del div según tus necesidades */
+    height: 100vh; /* Ajusta la altura del div según tus necesidades */
+    background-image: url('/assets/hotel.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    border-left: 1px solid var(--color-beige-claro);
+}
